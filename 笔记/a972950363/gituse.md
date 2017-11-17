@@ -22,7 +22,7 @@
 ####
 三、工作区与暂存区：
 
-![image] (https://github.com/a972950363/ctf_web/blob/master/src/Image2.png?raw=true)
+![image] (https://github.com/a972950363/ctf_web/blob/master/src/Image.png?raw=true)
    
 ####
 四、远程库：
@@ -61,7 +61,7 @@
 
 	所以，团队合作的分支看起来就像这样：
 
-	! [image]（ctf_web/src/Image2.png）
+! [image]（ctf_web/src/Image2.png）
 
 
 BUG修复：
