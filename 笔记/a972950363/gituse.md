@@ -1,4 +1,6 @@
+####
 一、创建：
+
 初始化一个Git仓库，使用git init命令。
 
 添加文件到Git仓库，分两步：
@@ -8,17 +10,21 @@
 第二步，使用命令git commit，完成。
 
 
+####
 二、版本转换：
+
 	HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id
 	
  	穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
 	
 	要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
 	
+####
 三、工作区与暂存区：
 
 ! [image] (ctf_web/src/Image.png)
    
+####
 四、远程库：
      要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
      
@@ -27,6 +33,7 @@
      此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
 
      git clone从远程库克隆
+####
 五、分支：
     	查看分支：git branch
 	
