@@ -1,5 +1,4 @@
-####
-一、创建：
+## 一、创建：
 
 	初始化一个Git仓库，使用git init命令。
 
@@ -10,8 +9,7 @@
 	第二步，使用命令git commit，完成。
 
 
-####
-二、版本转换：
+## 二、版本转换：
 
 	HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id
 	
@@ -19,13 +17,11 @@
 	
 	要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
 	
-####
-三、工作区与暂存区：
+## 三、工作区与暂存区：
 
-![image] (https://github.com/a972950363/ctf_web/blob/master/src/Image.png?raw=true)
+![image]  (https://github.com/a972950363/ctf_web/blob/master/src/Image.png?raw=true)
    
-####
-四、远程库：
+## 四、远程库：
      
      要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
      
@@ -34,8 +30,7 @@
      此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
 
      git clone从远程库克隆
-####
-五、分支：
+## 五、分支：
     	
 	查看分支：git branch
 	
@@ -49,7 +44,7 @@
 	
 	删除分支：git branch -d <name>
 
-分支策略：
+### 分支策略：
 
 	在实际开发中，我们应该按照几个基本原则进行分支管理：
 
@@ -61,10 +56,10 @@
 
 	所以，团队合作的分支看起来就像这样：
 
-! [image]（ctf_web/src/Image2.png）
+! [image] （ctf_web/src/Image2.png）
 
 
-BUG修复：
+### BUG修复：
 
 	Git还提供了一个stash功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作：
 
