@@ -56,7 +56,7 @@
 
 	所以，团队合作的分支看起来就像这样：
 
-! []（https://github.com/a972950363/ctf_web/blob/master/src/Image2.png）
+ ![](https://github.com/a972950363/ctf_web/blob/master/src/Image2.png)
 
 
 ### BUG修复：
