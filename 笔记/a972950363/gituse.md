@@ -22,7 +22,7 @@
 ####
 三、工作区与暂存区：
 
-	![image] (https://github.com/a972950363/ctf_web/blob/master/src/Image2.png)
+![image] (https://github.com/a972950363/ctf_web/blob/master/src/Image2.png?raw=true)
    
 ####
 四、远程库：
